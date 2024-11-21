@@ -1,0 +1,26 @@
+#Pizza {
+    color: red;
+}
+
+#Croissant {
+    color: blue;
+}
+
+#Cheese {
+    color: yellow;
+}
+
+#Baguette {
+    color: orange;
+}
+
+#Macaron {
+    color: pink;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid gray;
+}
+
