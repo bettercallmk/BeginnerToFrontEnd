@@ -1,0 +1,42 @@
+.Title, h2 {
+    text-align: center;
+    color: #EED3B1;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+html {
+    background-color: #47663B;
+}
+
+img {
+    height: 300px;
+    width: 220px;
+}
+
+.card {
+    border: 5px solid #1F4529;
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.content {
+    color: #EED3B1;
+}
+
+.card:hover {
+    transform: scale(1.05); /* 살짝 확대 */
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    opacity: 0.8; /* 마우스를 올리면 살짝 투명해짐 */
+    transition: opacity 0.3s ease;
+}
